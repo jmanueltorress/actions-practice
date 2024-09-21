@@ -3,8 +3,8 @@ on: [push]
 
 jobs:
   hola:
-    runs-on: windows
+    runs-on: windows-latest
 
     steps: 
     - name: hola mundo
-    run: echo "Hola mundo"
+      run: echo "Hola mundo"
